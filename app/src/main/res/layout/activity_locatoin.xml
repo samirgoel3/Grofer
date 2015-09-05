@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spinno.buzczar.LocatoinActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#e74c3c">
+
+
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buzczar_white"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-40dp"/>
+
+
+
+
+
+
+    <!-- <TextView android:text="Locating address and converting it to acurate address..." android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:padding="20dp"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp"
+         android:textColor="#ffffff"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:id="@+id/textView4" />    -->
+
+
+
+</LinearLayout>

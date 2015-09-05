@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_arrow"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back_button_inlogin_with_no_address"/>
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No address found, tap on add new address to add address in your profile"
+        android:id="@+id/no_address_text_address_fragment"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="17dp"/>
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/address_add_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Enter your home or office address just once and we will save it for future record"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add New Address"
+        android:background="@drawable/white_button_states"
+        android:textColor="#ffff4e44"
+        android:padding="20dp"
+        android:id="@+id/add_address_in_login_with_no_address"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

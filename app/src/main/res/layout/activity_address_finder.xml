@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.spinno.buzczar.AddressFinderActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/search_icon"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/edit_text_in_address_finder_activity"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+        <com.spinno.buzczar.ProgressWheel
+            android:id="@+id/progress_wheel"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            wheel:matProg_barColor="#ffff1813"
+            android:layout_gravity="center|top"
+            wheel:matProg_progressIndeterminate="true" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:id="@+id/listview_in_addres_finder_activity"></ListView>
+
+
+
+</LinearLayout>

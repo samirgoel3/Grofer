@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeff0f0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/left_arrow"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back_button_in_myprevious_orders"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="My Previous orders"
+            android:gravity="center"
+            android:paddingRight="40dp"
+            android:textColor="#e74c3c"/>
+
+        </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listview_in_order_fragment"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:dividerHeight="15dp"
+                android:divider="#ffeff0f0"
+                ></ListView>
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_user_icon"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/add_user_icon"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
+            android:text="No Order Found"
+            android:textSize="20dp"
+            android:id="@+id/no_order_foundin_my_order_fragment"/>
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

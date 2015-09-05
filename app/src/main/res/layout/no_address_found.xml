@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="No address found "
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Address"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/white_button_states"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/add_address_in_payment_form_activity_jump_to_next_activity"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e74c3c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="We Understand the value of your time , you just need to save your address only once and acn use for any order"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#faff2222"/>
+</LinearLayout>

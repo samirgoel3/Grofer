@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/before_login_for_addrress_fragment"
+            android:id="@+id/before_login_inaddress_fragment"/>
+        <include layout="@layout/after_login_for_address_fragment"
+            android:id="@+id/after_login_for_address_fragment"/>
+        <include layout="@layout/login_with_no_address"
+            android:id="@+id/login_with_no_address"/>
+
+
+        <com.spinno.buzczar.ProgressWheel
+            android:id="@+id/progress_wheel_in_addressac_tivity"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            wheel:matProg_barColor="#ffff1813"
+            android:layout_gravity="center"
+            wheel:matProg_progressIndeterminate="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please check your internet connection"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:id="@+id/checkinternettext"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>

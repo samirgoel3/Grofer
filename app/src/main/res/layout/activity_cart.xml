@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.spinno.buzczar.CartActivity"
+    android:background="#ffffff">
+
+
+
+
+    <include layout="@layout/whenthereisdata_in_cart"
+        android:id="@+id/when_there_is_data_in_cart"/>
+
+    <include layout="@layout/when_cart_is_empty"
+        android:id="@+id/when_cart_is_empty"/>
+
+</LinearLayout>

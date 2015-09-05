@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#a2e4592e"
+        android:layout_marginTop="10dp"
+
+        >
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/productid_in_item_for_cart" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/hidden_discount_price_in_item_for_cart" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageVieweee_in_item_for_cart_layout"
+                android:layout_marginRight="10dp"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Product Name"
+                    android:id="@+id/productnamein_item_for_cart_layout"
+                    android:layout_gravity="center"
+                    />
+                <include layout="@layout/fifth_frame_for_cart_layout"
+                    android:layout_marginTop="-5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+
+               <!-- <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="45dp"
+                    android:background="#bbbbbb"/>   -->
+                <include layout="@layout/second_frame_for_cart_pannel"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="45dp"
+                    android:background="#bbbbbb"/>
+                <include layout="@layout/third_frame_for_cartpannel"/>
+
+
+                <include layout="@layout/fourth_frame_for_cart_pannel"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <!-- <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_gravity="right"
+            android:id="@+id/delete_product_from_cart_item_for_cart_layout"
+            />    -->
+        </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff464a"
+        android:layout_marginTop="10dp"
+        ></RelativeLayout>
+
+
+
+</LinearLayout>

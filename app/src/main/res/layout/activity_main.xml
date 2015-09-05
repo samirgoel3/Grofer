@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:configChanges="orientation|keyboardHidden|screenSize">
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:layout_height="298dp"
+            android:layout_width="match_parent"
+            android:id="@+id/slider"
+            android:layout_marginTop="50dp"
+            />
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:layout_marginTop="50dp">
+
+           <!-- <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_gravity="bottom"
+                android:id="@+id/secondnouse"></RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/nouselayout"></RelativeLayout>   -->
+
+
+            <astuetz.PagerSlidingTabStrip
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_gravity="bottom"/>
+
+
+
+        </FrameLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/actionbar_states">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu_icon"
+                android:id="@+id/open_menu_icon"/>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/locationchanger_on_actionbar"
+                android:gravity="center"
+                android:background="@drawable/actionbar_states">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/locationtextid_in_main_activity"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    android:text="Sec 30"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/pencil_action_bar"
+                    android:layout_marginRight="30dp"/>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include layout="@layout/slide_tutorial_screen"
+            android:id="@+id/screen_one_tutorial"/>
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/cartpannel_in_main"
+        android:background="#ffffff">
+        <include layout="@layout/cart_pannel_for_main"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background_for_item_of_order_tracking">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edithomeaddress"
+        android:hint="Name"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#412f2f2f"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        >
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="House/Flat no *"
+            android:id="@+id/edithousenumber"
+            android:gravity="center|left"
+            android:background="@android:color/transparent"
+            android:textColor="#000000"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#412f2f2f"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Street/Building Name *"
+        android:id="@+id/editstreetno"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#412f2f2f"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Landmark"
+        android:id="@+id/landmark"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#412f2f2f"
+        android:layout_marginBottom="5dp"
+
+        />
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Area Name"
+        android:background="@android:color/transparent"
+        android:id="@+id/editarea"
+        android:textColor="#000000"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#412f2f2f"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/editstate"
+        android:hint="City "
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#412f2f2f"
+        android:layout_marginBottom="5dp"
+
+        />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="Pin no. *"
+            android:id="@+id/pin"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:gravity="center|left"
+            android:background="@android:color/transparent"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

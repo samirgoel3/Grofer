@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="10dp"
+    android:gravity="center"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Please fill in your details so we can serve you better"
+                android:id="@+id/textView29"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/phone_number_in_before_login"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:hint="Enter Your Phone Number"
+                    android:textSize="14dp"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:maxLength="10"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#bbbbbb"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:inputType="textPassword"
+                    android:id="@+id/password_in_before_login"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:hint="Enter Password"
+                    android:textSize="14dp"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login "
+                    android:id="@+id/loginbuttonin_before_login"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/red_button_states"/>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:id="@+id/sign_up_in_before_login"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#e74c3c"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:background="@drawable/white_button_states"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="forgot password ? "
+                android:textColor="#faff2222"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:id="@+id/forgetpassword"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is recomended to create a account so that you can order details and track them easily"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="#faff2222"
+                android:layout_marginTop="20dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#bbbbbb"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buzczar_red"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

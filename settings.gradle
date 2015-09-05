@@ -1,0 +1,1 @@
+include ':app', ':PagerSlidingtabStrplibrary', ':kenburnlibrary', ':menudrawerlibrary', ':sweetalertdialog', ':imageslider'

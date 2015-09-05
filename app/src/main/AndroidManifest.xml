@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.spinno.buzczar" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".MyPreviousOrdersActivity"
+            android:label="@string/title_activity_my_previous_orders"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="grocery_database.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="3" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.spinno.buzczar" />
+
+        <activity
+            android:name=".CartActivity"
+            android:label="@string/title_activity_cart"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".AddressActivity"
+            android:label="@string/title_activity_address"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".AddAddress"
+            android:label="@string/title_activity_add_address"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/title_activity_payment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Edit_Address_Activity"
+            android:label="@string/title_activity_edit__address_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LocatoinActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddressFinderActivity"
+            android:label="@string/title_activity_address_finder"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RecordNotFoundActivity"
+            android:label="@string/title_activity_record_not_found"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CategoryFetchingActivity"
+            android:label="@string/title_activity_category_fetching"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LocationWithNoChange"
+            android:label="@string/title_activity_location_with_no_chenge"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NoInternetActivity"
+            android:label="@string/title_activity_no_internet"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EnquiryActivity"
+            android:label="@string/title_activity_enquiry_fragment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FAQActivity"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

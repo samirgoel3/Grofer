@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Grofer.iml" filepath="$PROJECT_DIR$/Grofer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagerSlidingtabStrplibrary/PagerSlidingtabStrplibrary.iml" filepath="$PROJECT_DIR$/PagerSlidingtabStrplibrary/PagerSlidingtabStrplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageslider/imageslider.iml" filepath="$PROJECT_DIR$/imageslider/imageslider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kenburnlibrary/kenburnlibrary.iml" filepath="$PROJECT_DIR$/kenburnlibrary/kenburnlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menudrawerlibrary/menudrawerlibrary.iml" filepath="$PROJECT_DIR$/menudrawerlibrary/menudrawerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sweetalertdialog/sweetalertdialog.iml" filepath="$PROJECT_DIR$/sweetalertdialog/sweetalertdialog.iml" />
+    </modules>
+  </component>
+</project>

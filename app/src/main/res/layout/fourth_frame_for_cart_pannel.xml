@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you save "
+        android:textColor="#bbbbbb"/>
+
+
+    <ImageView
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:background="@drawable/rupee_icon_grey"
+        android:layout_gravity="right|center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 "
+        android:id="@+id/visible_discounted_price_in_cart_layout"
+        android:textColor="#bbbbbb"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="on this item."
+        android:textColor="#bbbbbb"/>
+
+
+
+</LinearLayout>

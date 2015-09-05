@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ff9d9d9d"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/tracking_order_green_indicator"
+                    android:layout_gravity="center"
+                    android:id="@+id/pending_green_order_fragment"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/tracking_order_cancel_indicator"
+                    android:layout_gravity="center"
+                    android:id="@+id/pending_red_order_fragment"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ff9d9d9d"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/tracking_order_green_indicator"
+                    android:layout_gravity="center"
+                    android:id="@+id/processing_green_order_fragment"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/tracking_order_cancel_indicator"
+                    android:layout_gravity="center"
+                    android:id="@+id/processing_red_order_fragment"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ff9d9d9d"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/tracking_order_green_indicator"
+                    android:layout_gravity="center"
+                    android:id="@+id/delivered_green_order_fragment"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/tracking_order_cancel_indicator"
+                    android:layout_gravity="center"
+                    android:id="@+id/delivered_red_order_fragment"
+                    />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Pending"
+                android:gravity="center"
+                android:id="@+id/pending_text_in_order_fragment"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Processing"
+                android:gravity="center"
+                android:id="@+id/processing_text_in_order_fragment"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Delivered"
+                android:gravity="center"
+                android:id="@+id/delivered_text_in_order_fragment"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

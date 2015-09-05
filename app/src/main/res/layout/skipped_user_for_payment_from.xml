@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_item_of_order_tracking"
+    android:padding="10dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#ff8a8a8a"
+        android:hint="Enter Your Name *"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:id="@+id/username_in_payment_form_activity"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#ff8a8a8a"
+        android:hint="Enter Your Phone number  *"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:maxLength="10"
+        android:id="@+id/phone_in_payment_form_activity"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#ff8a8a8a"
+        android:hint="e-mail "
+        android:inputType="textEmailAddress"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:id="@+id/email_in_payment_form_activity"/>
+
+
+</LinearLayout>
